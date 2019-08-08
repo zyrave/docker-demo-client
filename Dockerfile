@@ -1,5 +1,5 @@
 # base image
-FROM node:10.16.0-alpine
+FROM node:10-alpine
 
 # create app directory and use it as the working directory
 RUN mkdir -p /app/docker-demo-client
